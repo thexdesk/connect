@@ -54,7 +54,7 @@
     "react-native-ios-launch-arguments": "https://github.com/andyh2/react-native-ios-launch-arguments.git#master",
     "react-native-permissions": "^1.1.1",
     "react-native-popover-view": "^1.0.17",
-    "react-native-qrcode-scanner": "^1.1.2",
+    "react-native-qrcode-scanner": "^1.6.0",
     "react-native-svg": "^9.3.7",
     "react-native-video": "^4.4.4",
     "react-navigation": "3.6.1",
