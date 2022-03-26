@@ -17,7 +17,9 @@
     "apk": "cd android && ./gradlew assembleRelease",
     "rename": "node ./bin/rename.js",
     "start": "react-native start",
-    "test": "jest"
+    "test": "jest",
+    "prepare": "yarn run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "jest": {
     "preset": "react-native"
@@ -65,6 +67,8 @@
     "redux-thunk": "^2.3.0",
     "rn-fetch-blob": "^0.10.15",
     "@commaai/tipsi-stripe": "7.5.6",
-    "url-search-params": "^1.1.0"
-  }
+    "url-search-params": "^1.1.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
